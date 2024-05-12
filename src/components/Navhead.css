@@ -1,0 +1,63 @@
+.nav-bar-base {
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  display: flex;
+}
+
+.nav-info {
+  padding-top: 5px;
+  list-style: none;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+
+li span {
+  font-size: 14px;
+}
+
+.nav-info li {
+  padding: 0px 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid transparent;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.nav-info li:hover {
+  border-bottom: 2px solid black;
+}
+
+.ser-brand {
+  padding: 10px;
+  position: relative;
+  width: 40%;
+}
+.search {
+  width: 80%;
+  position: relative;
+}
+
+.inp-ser {
+  width: 80%;
+  border-radius: 10px;
+  padding-left: 30px;
+  background-color: #e4e4e4;
+  padding: 5px 3px 3px 32px;
+  margin-left: 3%;
+  border: none;
+}
+
+.inp-ser:focus {
+  outline: none;
+}
+
+.icon-search {
+  position: absolute;
+  left: 5%;
+  top: 30%;
+}
